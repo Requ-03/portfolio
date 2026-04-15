@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sk Shabnam - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(36, 8, 32);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(114, 57, 102);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(114, 57, 102);
+            height: 1.2px;
+            margin: 40px 50px;
+
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(205, 157, 224);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+        }
+
+        .leftsection .button {
+            padding: 20px;
+        }
+
+        .leftsection .resume {
+            padding: 15px;
+            background-color: rgb(91, 20, 91);
+            border: 2px solid rgb(225, 192, 231);
+            border-radius: 7px;
+            color: rgb(225, 192, 231);
+            font-size: 20px;
+            cursor: pointer;
+            margin: 10px 0px;
+        }
+        .leftsection .resume:hover{
+            color: rgb(91, 20, 91);
+            background-color:rgb(225, 192, 231) ;
+            border:rgb(160, 46, 160) ;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .rightsection img {
+            width: 100%;
+        }
+
+        .purple {
+            color: rgb(224, 84, 221);
+        }
+
+        #element {
+            color: rgb(224, 84, 221);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.5rem;
+        }
+
+        .secondsection .box {
+            background: rgb(210, 116, 223);
+            max-width: 70vm;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 50px;
+            width: 1px;
+            background-color: rgb(210, 116, 223);
+            margin: 0 100px;
+            display: flex;
+            margin: 0 100px;
+
+        }
+
+        .past {
+            color: rgb(224, 84, 221);
+        }
+
+        .what {
+            color: rgb(236, 210, 241);
+        }
+
+        .image1 {
+            position: relative;
+            width: 24px;
+            height: 18px;
+            top: -24.4px;
+            left: -10px;
+        }
+
+        .HTML_LOGO {
+            position: relative;
+            width: 20px;
+            height: 20px;
+            top: -24.4px;
+            left: -10px;
+        }
+
+        .python {
+            position: relative;
+            width: 20px;
+            height: 20px;
+            top: -24.4px;
+            left: -10px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 55px;
+            left: -56px;
+            color: rgb(220, 143, 230);
+        }
+
+        .vertical1 {
+            position: relative;
+            top: 55px;
+            left: -45px;
+            color: rgb(220, 143, 230);
+        }
+
+        .py {
+            position: relative;
+            top: 55px;
+            left: -40px;
+            color: rgb(220, 143, 230);
+        }
+
+        .pra {
+            color: rgb(149, 103, 136);
+            position: relative;
+            top: 100px;
+            left: -140px;
+            font-size: 11px;
+        }
+
+        .pra1 {
+            color: rgb(149, 103, 136);
+            position: relative;
+            top: 125px;
+            left: -125px;
+            font-size: 11px;
+        }
+
+        .pra2 {
+            color: rgb(149, 103, 136);
+            position: relative;
+            top: 100px;
+            left: -120px;
+            font-size: 11px;
+        }
+
+        .footer {
+            background-color: rgb(74, 13, 71);
+            display: flex;
+            height: 230px;
+            color: rgb(214, 156, 228);
+            justify-content: space-evenly;
+        }
+
+        .first {
+            padding: 10px 25px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 200px;
+        }
+
+        footer .rights_footer {
+            text-align: center;
+            color: rgb(220, 143, 230);
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sk Shabnam's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">services</a></li>
+                <li><a href="/">Project</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, My name <span class="purple">Sk Shabnam</span>
+                <div>And I am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="resume">Download Resume</button>
+                    <button class="resume">Visit github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="devpng.jpeg" alt style="
+                width: 80%;
+                margin:38px 0;
+                ">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="what">What I have done so far</span>
+            <h1 class="past">
+                Work Exprience
+            </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image1" src="dev.jpeg" alt="">
+                    <div class="vertical-title">Frontend Developer</div>
+                    <div class="pra">2 Year Experiance</div>
+                </div>
+                <div class="vertical">
+                    <img class="HTML_LOGO" src="HTML_LOGO.jpeg" alt="">
+                    <div class="vertical1">HTML & CSS Developer</div>
+                    <div class="pra1">2 Year Experiance</div>
+                </div>
+                <div class="vertical">
+                    <img class="python" src="python.jpeg" alt="">
+                    <div class="py">Python Developer</div>
+                    <div class="pra2">2 Year Experiance</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first">Sk_Shabnam's Portfolio</div>
+            <div class="second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contect</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contect</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contect</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+        <div class="rights_footer">Copyright &#169; skshabnamportfolio.com | All Right Reserved</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', '&amp; FrontEnd Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
